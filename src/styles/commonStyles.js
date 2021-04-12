@@ -14,6 +14,93 @@ export const hitSlopProp = {
   bottom: 12,
 };
 export default StyleSheet.create({
+  fontSize12: {
+    fontSize: textScale(12),
+    color: colors.black,
+    fontFamily: fontFamily.regular,
+    textAlign: 'left',
+  },
+  fontSize13: {
+    fontSize: textScale(13),
+    color: colors.blackOpacity60,
+    fontFamily: fontFamily.regular,
+    textAlign: 'left',
+  },
+
+  fontSize14: {
+    fontSize: textScale(14),
+    color: colors.black,
+    fontFamily: fontFamily.regular,
+    textAlign: 'left',
+  },
+
+  fontSemiBold14: {
+    fontSize: textScale(14),
+    color: colors.black,
+    fontFamily: fontFamily.semiBold,
+    textAlign: 'left',
+  },
+
+  fontSize15: {
+    fontSize: textScale(15),
+    color: colors.black,
+    fontFamily: fontFamily.regular,
+    textAlign: 'left',
+  },
+
+  fontSize16: {
+    fontSize: textScale(16),
+    color: colors.black,
+    fontFamily: fontFamily.regular,
+    textAlign: 'left',
+  },
+  fontSize18: {
+    fontSize: textScale(18),
+    color: colors.black,
+    fontFamily: fontFamily.regular,
+    textAlign: 'left',
+  },
+
+  fontSize20: {
+    fontSize: textScale(20),
+    color: colors.lightDarkBlack,
+    fontFamily: fontFamily.regular,
+    textAlign: 'left',
+  },
+  fontSize24: {
+    fontSize: textScale(24),
+    color: colors.black,
+    fontFamily: fontFamily.regular,
+    textAlign: 'left',
+  },
+
+  fontBold16: {
+    fontSize: textScale(16),
+    color: colors.black,
+    fontFamily: fontFamily.bold,
+    textAlign: 'left',
+  },
+
+  fontSize26: {
+    fontSize: textScale(26),
+    color: colors.numberBlackblack,
+    fontFamily: fontFamily.regular,
+    textAlign: 'left',
+  },
+  fontSize13Purple: {
+    fontSize: textScale(13),
+    color: colors.purpleColor,
+    fontFamily: fontFamily.regular,
+    textAlign: 'left',
+  },
+
+  fontSize16SemiBold: {
+    fontSize: textScale(16),
+    color: colors.black2Color,
+    fontFamily: fontFamily.semiBold,
+    textAlign: 'left',
+  },
+
   loader: {
     position: 'absolute',
     left: 0,
@@ -23,41 +110,6 @@ export default StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  mediumFont14:{
-    fontSize:textScale(14),
-    color:colors.textGrey,
-    fontFamily:fontFamily.medium,
-    opacity:.7
-
-  },
-  mediumFont14Normal:{
-    fontSize:textScale(14),
-    color:colors.textGrey,
-    fontFamily:fontFamily.medium,
-    opacity:1
-  },
-  mediumFont16:{
-    fontSize:textScale(14),
-    color:colors.textGrey,
-    fontFamily:fontFamily.medium,
-  },
-  futuraBtHeavyFont16:{
-    fontSize:textScale(16),
-    color:colors.black,
-    fontFamily:fontFamily.futuraBtHeavy
-    
-  },
-  futuraBtHeavyFont14:{
-    fontSize:textScale(14),
-    color:colors.black,
-    fontFamily:fontFamily.futuraBtHeavy
-    
-  },
-  futuraHeavyBt:{
-    fontSize:textScale(16),
-    color:colors.black,
-    fontFamily:fontFamily.futuraHeavyBt
-  },
   buttonRect: {
     height: moderateScaleVertical(46),
     justifyContent: 'center',
@@ -65,7 +117,7 @@ export default StyleSheet.create({
     backgroundColor: colors.themeColor,
     borderWidth: 1,
     borderColor: colors.themeColor,
-    borderRadius:4,
+    borderRadius: 4,
   },
   shadowStyle: {
     backgroundColor: colors.white,
@@ -82,10 +134,10 @@ export default StyleSheet.create({
     fontFamily: fontFamily.futuraBtHeavy,
     textTransform: 'uppercase',
     color: colors.white,
-    textAlign:"center"
+    textAlign: 'center',
   },
-  imgOverlay:{
+  imgOverlay: {
     ...StyleSheet.absoluteFillObject,
-    backgroundColor:'rgba(0,0,0,0.3)'
-  }
+    backgroundColor: 'rgba(0,0,0,0.3)',
+  },
 });
