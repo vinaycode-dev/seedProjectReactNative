@@ -1,6 +1,5 @@
-import React, {useEffect} from 'react';
+import React, {useEffect,useState} from 'react';
 import {View, Text, TouchableOpacity, Image, StyleSheet} from 'react-native';
-import {useState} from 'react/cjs/react.development';
 import {
   CodeField,
   Cursor,
